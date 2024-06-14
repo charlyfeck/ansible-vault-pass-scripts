@@ -1,6 +1,6 @@
 # Ansible Vault password scripts
 
-[Ansible Vault](https://docs.ansible.com/ansible/8/vault_guide/vault.html) is an excellent tool for encrypting secrets used in our playbooks before syncing the code to the repository. One challenge is managing the vault password securely.
+[Ansible Vault](https://docs.ansible.com/ansible/8/vault_guide/vault.html) is an excellent tool for encrypting secrets used in an Ansible playbook before syncing the code to the repository. One challenge is managing the vault password securely.
 
 This repository offers a solution by storing the vault password in a [Bitwarden Password Manager](https://bitwarden.com/) account. With this approach, the vault password isn't saved in a plaintext file, and there's no need to enter the password with every command execution.
 
